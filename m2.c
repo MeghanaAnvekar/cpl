@@ -300,10 +300,7 @@ void delAllocatedList()
 			
 		}while(fptr);
 	 }
-	 
 	 //if adjacent blocks in free list were not found or free list was empty
-	 
-
 	nptr->next = free_list;
 	free_list = nptr;
 	 
